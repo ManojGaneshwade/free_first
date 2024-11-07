@@ -57,7 +57,7 @@ public class TechService {
 			else
 			{
 				//return new ResponseEntity<>("no record present with id "+id,HttpStatus.NOT_FOUND);
-				throw new ResourceNotFoundException("no record present with id "+id);
+				throw new ResourceNotFoundException("no record present with id "+id+" enter valid id.");
 			}
 		}
 	
